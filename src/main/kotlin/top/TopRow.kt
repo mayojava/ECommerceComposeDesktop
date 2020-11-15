@@ -8,7 +8,7 @@ import top.Profile
 import top.SalesReport
 
 @Composable
-fun TopLayer(modifier: Modifier = Modifier) {
+fun TopRow(modifier: Modifier = Modifier) {
     Row(
         modifier = modifier,
         horizontalArrangement = Arrangement.SpaceBetween,

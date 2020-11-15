@@ -14,7 +14,7 @@ fun main() = Window(title = "", size = IntSize(1400, 920)) {
     ) {
         Surface(color = mainBackgroundColor) {
             Column(modifier = Modifier.fillMaxSize().padding(32.dp)) {
-                TopLayer()
+                TopRow()
                 Spacer(modifier = Modifier.height(40.dp))
                 BottomRow(modifier = Modifier.fillMaxWidth().weight(0.60f))
             }
