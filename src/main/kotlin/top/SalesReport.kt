@@ -17,6 +17,7 @@ import androidx.compose.ui.unit.sp
 import cardColor
 import downTickerColor
 import textColor
+import top.graph.GraphArea
 import upTickerColor
 
 @Composable
@@ -61,6 +62,8 @@ fun SalesReport() {
                     .fillMaxHeight()
                     .background(color = MaterialTheme.colors.onSurface.copy(alpha = 0.12f))
             )
+            Spacer(modifier = Modifier.width(32.dp))
+            GraphArea(modifier = Modifier.padding(vertical = 20.dp))
         }
     }
 }
