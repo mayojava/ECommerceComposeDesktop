@@ -10,11 +10,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
 @Composable fun BottomRow(modifier: Modifier = Modifier) {
-    Row (modifier = modifier,
-
-        verticalAlignment = Alignment.CenterVertically) {
+    Row (modifier = modifier) {
         Cart()
         Spacer(modifier = Modifier.width(48.dp))
         SearchAndFilter()
+        Spacer(modifier = Modifier.width(48.dp))
+        ItemImagePane()
     }
 }

@@ -18,7 +18,7 @@ import cardColor
 @Composable fun Cart() {
     Surface(
         modifier = Modifier
-            .fillMaxWidth(0.22f)
+            .fillMaxWidth(0.23f)
             .fillMaxHeight(),
         shape = RoundedCornerShape(24.dp),
         color = cardColor
@@ -31,6 +31,7 @@ import cardColor
             Text(
                 text = "CART",
                 fontFamily = Fonts.Oswald(),
+                fontWeight = FontWeight.Bold,
                 fontSize = 20.sp,
                 modifier = Modifier.padding(vertical = 18.dp)
             )
